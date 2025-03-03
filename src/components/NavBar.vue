@@ -22,8 +22,8 @@
     </div>
 
     <DisclosurePanel class="lg:hidden">
-      <div class="space-y-1 px-2 pb-3 pt-2">
-        <DisclosureButton v-for="item in navigation" :key="item.name" as="a" v-scroll-to="item.href" :class="[item.current ? 'bg-[#be61c0] text-white hover:bg-[#6d256e]' : 'text-gray-300 hover:bg-[#6d256e] hover:text-white', 'block rounded-sm px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
+      <div class="space-y-1 px-9 pt-12">
+        <DisclosureButton v-for="item in navigation" :key="item.name" as="a" v-scroll-to="item.href" :class="[item.current ? 'bg-[#be61c0] text-white hover:bg-[#6d256e]' : 'text-gray-300 hover:bg-[#6d256e] hover:text-white', 'block rounded-sm px-3 py-2 text-xsm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
       </div>
     </DisclosurePanel>
   </Disclosure>
