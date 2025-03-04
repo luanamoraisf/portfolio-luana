@@ -49,7 +49,6 @@ export default {
 <style>
 #about-me{
     padding-top: 1%;
-    margin-top: -42%;
     margin-bottom: 25%;
 }
 #line-education{
